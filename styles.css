@@ -1,1 +1,11 @@
 /*  your css code here. If applicable */
+#bands{
+	width:50vw;
+	border:1px solid lightgray;
+}
+#bands>li{
+	padding:5px;
+	border-top:1px solid lightgray;
+	background-color:white;
+	
+}

@@ -26,6 +26,7 @@ let body=document.querySelector("body");
 document.addEventListener("DOMContentLoaded",() =>{
 	console.log('i am ready')
 	let list = document.createElement("ul");
+	list.setAttribute("id","bands");
 for (let i = 0; i < sortedBands.length; i++) {
 	
 	let li= document.createElement("li");
